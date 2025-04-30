@@ -28,5 +28,7 @@ Some fundamental parameters that most models have:
 
 Don’t forget to try general prompt engineering best practices (e.g. be clear in your request, be detailed, show examples) in addition to adjusting parameters.
 
-### 
+### Text models with Bedrock
+
+-In order to **invoke the model** I need to access the **bedrock runtime service.** So something to keep in mind is slightly different than other boto services is the service name. **Bedrock** is basically just information about Amazon bedrock. Like what models are available, what models do I have access to, what services are available, etc. when I actually want to run one of these models, the service name is **bedrock-runtime.**  
 
