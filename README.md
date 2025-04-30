@@ -12,3 +12,7 @@ Ref: https://www.udemy.com/course/amazon-bedrock-learn-ai-on-aws-with-python/
 - There are other new and upcoming services, such as Knowledge Databases using RAG - Retrieval Augmented Generation and **Agents**, allowing LLMs to call **Lambda functions**.
 - Inside of the AWS Amazon Bedrock console you also get access to a **playground** for quick testing.
 - Keep in mind not all configurations are available for all models. They may be slightly different, and you have the playground accessibility to just play around with these models. And most importantly, you do need to request model access. Remember, you go to the Model Access page and then click on Manage Model Access. And then you're going to select which models you want access to.
+
+## Text Generation
+
+### Paramaters
