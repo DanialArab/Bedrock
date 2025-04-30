@@ -17,6 +17,11 @@ Ref: https://www.udemy.com/course/amazon-bedrock-learn-ai-on-aws-with-python/
 
 ### Parameters
 
-- Temperature: the higher the more creative results from LLM
-- Not all parameters are shared between models (not all models have a frequency penalty) and the JSON configuration and naming schema is different between models (e.g. topP vs top_p).
-- 
+Not all parameters are shared between models (not all models have a frequency penalty) and the JSON configuration and naming schema is different between models (e.g. topP vs top_p).
+
+Some fundamental parameters that most models have:
+
+- **Max Token Generation Length**: This parameter sets a limit on the number of tokens the model can generate in response to a prompt. For instance, if the max token generation length is set to 500, the model will not produce a response that exceeds 500 tokens. A shorter max length can lead to more focused and concise answers, ideal for straightforward questions. In contrast, a longer max length allows the model to provide more detailed and comprehensive responses. 
+- **Temperature**: The 'Temperature' parameter in LLMs controls the randomness or creativity in the model's responses. A lower temperature (closer to 0) makes the model's responses more deterministic and predictable, often sticking closely to the most likely output based on its training. Conversely, a higher temperature (closer to 1) increases randomness, leading to more varied and sometimes more creative or unexpected outputs. **At high temperatures, there's also a higher risk of generating nonsensical, irrelevant, or off-topic content.** The ideal temperature setting depends on the specific application and goals. For tasks requiring high accuracy and reliability, such as factual reporting or technical explanations, a lower temperature is preferred.  For creative tasks like storytelling or poetry pick a higher temperature.
+- **Top P**:
+- **Stop or Finish Sequence**: 
