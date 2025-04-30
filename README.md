@@ -9,6 +9,6 @@ Ref: https://www.udemy.com/course/amazon-bedrock-learn-ai-on-aws-with-python/
 - Currently, there are two main model types:
     - Text Generation: Give some input text, generate output text, like explanations, summaries, etc.
     - Image Generation: Given a text description, generate an image, can also use base images
-- There are other new and upcoming services, such as Knowledge Databases using RAG - Retrieval Augmented Generation and Agents, allowing LLMs to call **Lambda functions**.
+- There are other new and upcoming services, such as Knowledge Databases using RAG - Retrieval Augmented Generation and **Agents**, allowing LLMs to call **Lambda functions**.
 - Inside of the AWS Amazon Bedrock console you also get access to a **playground** for quick testing.
 - 
