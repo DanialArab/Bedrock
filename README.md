@@ -15,4 +15,8 @@ Ref: https://www.udemy.com/course/amazon-bedrock-learn-ai-on-aws-with-python/
 
 ## Text Generation
 
-### Paramaters
+### Parameters
+
+- Temperature: the higher the more creative results from LLM
+- Not all parameters are shared between models (not all models have a frequency penalty) and the JSON configuration and naming schema is different between models (e.g. topP vs top_p).
+- 
