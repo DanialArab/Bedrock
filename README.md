@@ -42,3 +42,6 @@ Don’t forget to try general prompt engineering best practices (e.g. be clear i
                   "stopSequences": [string]
             }
           }
+
+I can get the inference parameters for all the models here at: https://docs.aws.amazon.com/bedrock/latest/userguide/model-parameters-deepseek.html 
+
