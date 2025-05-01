@@ -52,3 +52,15 @@ I can get the inference parameters for all the models here at: https://docs.aws.
 - And you do have to refer to the models' inference parameters in the documentation/link above.
 
   
+## Custom Models
+You may be wondering why we didn't show a video of fine-tuning a custom model!
+
+The main reason is because AWS is extremely focused on reliability with Amazon Bedrock, meaning they want to make sure your fine-tuned model has the same uptime and reliability as any other model. This means to create a custom fine-tuned model, you are required to purchase Provisioned Throughput, basically a payment for a minimum amount of usage in order to reserve the compute your model will use. The minimum amount  of provisioned throughput you can purchase on Amazon Bedrock is approximately $500 per month.
+
+If this seems like the right use case for you and you are aware of the financial costs, here is a guide on how to set up and create a custom model:
+
+To customize a model, you create a model customization job, specifically a Fine-Tuning job (creates a Fine-tuned model model) or Continued Pre-training job (creates a Continued Pre-training model model).
+
+First, you upload a training dataset and, optionally, a validation dataset to Amazon S3 and provide the Amazon S3 bucket path to the model customization job. Follow the instructions at Prepare the datasets to set up your dataset. Each model has default hyperparameter values for model training. If necessary, control the training process by making changes to hyperparameter values. For more information, see Using the console.To customize a model through the API, see Using the API.
+
+After you complete a model customization job, you can purchase Provisioned Throughput (see Provisioned Throughput) for the customized model so that you can use the model for inference using the InvokeModel or InvokeModelWithResponseStream API operations. For example code, see Run inference using Provisioned Throughput. You can also use the text playground (see Text playground).
