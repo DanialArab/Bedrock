@@ -45,3 +45,10 @@ Don’t forget to try general prompt engineering best practices (e.g. be clear i
 
 I can get the inference parameters for all the models here at: https://docs.aws.amazon.com/bedrock/latest/userguide/model-parameters-deepseek.html 
 
+**key takeaways**
+- to remember that both the arguments that you're going to pass in are going to be different for each model.
+- And inside of this response body, it's going to be different for each model.
+- Generation was not the key we used for the Titan model, but it is for the Llama2 model.
+- And you do have to refer to the models' inference parameters in the documentation/link above.
+
+  
