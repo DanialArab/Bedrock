@@ -64,3 +64,12 @@ To customize a model, you create a model customization job, specifically a Fine-
 First, you upload a training dataset and, optionally, a validation dataset to Amazon S3 and provide the Amazon S3 bucket path to the model customization job. Follow the instructions at Prepare the datasets to set up your dataset. Each model has default hyperparameter values for model training. If necessary, control the training process by making changes to hyperparameter values. For more information, see Using the console.To customize a model through the API, see Using the API.
 
 After you complete a model customization job, you can purchase Provisioned Throughput (see Provisioned Throughput) for the customized model so that you can use the model for inference using the InvokeModel or InvokeModelWithResponseStream API operations. For example code, see Run inference using Provisioned Throughput. You can also use the text playground (see Text playground).
+
+here is inference parameters for Llama 
+
+{
+    "prompt": string,
+    "temperature": float,
+    "top_p": float,
+    "max_gen_len": int
+}
