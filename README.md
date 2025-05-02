@@ -67,9 +67,9 @@ After you complete a model customization job, you can purchase Provisioned Throu
 
 here is inference parameters for Llama 
 
-{
-    "prompt": string,
-    "temperature": float,
-    "top_p": float,
-    "max_gen_len": int
-}
+    {
+        "prompt": string,
+        "temperature": float,
+        "top_p": float,
+        "max_gen_len": int
+    }
