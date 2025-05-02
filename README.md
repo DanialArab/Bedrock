@@ -73,3 +73,16 @@ here is inference parameters for Llama
         "top_p": float,
         "max_gen_len": int
     }
+
+## How to use batch inference vs. On-demand
+
+Some key points:
+- Data needs to be prepared in a **JSONL** file format 
+- I do need to upload the input data to S3 and also outputs need to be saved in S3
+- I can run this batch job either in Bedrock console or API
+- I need to use create_model_invocation_job and not invoke_model
+
+ref: https://docs.aws.amazon.com/bedrock/latest/userguide/batch-inference-supported.html
+
+
+
