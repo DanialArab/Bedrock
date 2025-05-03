@@ -117,7 +117,8 @@ here is inference parameters for Llama
 <a name="9"></a>
 ### How to use batch inference vs. On-demand
 
-Some key points on how to do batch inference:
+Some key points batch inference job:
+
 - Data needs to be prepared in a **JSONL** file format 
 - I do need to upload the input data to S3 and also outputs need to be saved in S3
 - I can run this batch job either in Bedrock console or API
