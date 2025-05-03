@@ -7,8 +7,9 @@
        2. [Temperature](#5)
        3. [Top P](#6)
        4. [Stop or Finish Sequence](#7)
-3. [Hard Questions](#4) 
-3. [Complete SQL Mastery](#5)  
+    2. [Text models with Bedrock](#8)
+       1. [How to use batch inference vs. On-demand](#9)
+
  
 
 <a name="1"></a>
@@ -66,6 +67,7 @@ You can also specify a stop sequence for an LLM. Most models accept a list of po
 
 Don’t forget to try general prompt engineering best practices (e.g. be clear in your request, be detailed, show examples) in addition to adjusting parameters.
 
+<a name="8"></a>
 ### Text models with Bedrock
 
 - In order to **invoke the model** I need to access the **bedrock runtime service.** So something to keep in mind is slightly different than other boto services is the service name. **Bedrock** is basically just information about Amazon bedrock. Like what models are available, what models do I have access to, what services are available, etc. when I actually want to run one of these models, the service name is **bedrock-runtime.**
@@ -90,7 +92,7 @@ I can get the inference parameters for all the models here at: https://docs.aws.
 - And you do have to refer to the models' inference parameters in the documentation/link above.
 
   
-## Custom Models
+#### Custom Models
 You may be wondering why we didn't show a video of fine-tuning a custom model!
 
 The main reason is because AWS is extremely focused on reliability with Amazon Bedrock, meaning they want to make sure your fine-tuned model has the same uptime and reliability as any other model. This means to create a custom fine-tuned model, you are required to purchase Provisioned Throughput, basically a payment for a minimum amount of usage in order to reserve the compute your model will use. The minimum amount  of provisioned throughput you can purchase on Amazon Bedrock is approximately $500 per month.
@@ -112,7 +114,8 @@ here is inference parameters for Llama
         "max_gen_len": int
     }
 
-## How to use batch inference vs. On-demand
+<a name="9"></a>
+### How to use batch inference vs. On-demand
 
 Some key points:
 - Data needs to be prepared in a **JSONL** file format 
