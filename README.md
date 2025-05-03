@@ -1,8 +1,17 @@
 # Bedrock
 
-Ref: https://www.udemy.com/course/amazon-bedrock-learn-ai-on-aws-with-python/
+1. [Introduction](#1)
+1. [Easy Questions](#2)  
+2. [Medium Questions](#3)
+3. [Hard Questions](#4) 
+3. [Complete SQL Mastery](#5)  
+ 
 
-## Intro
+
+
+
+<a name="1"></a>
+## Introduction 
 
 - Amazon Bedrock is an advanced, fully managed service designed to streamline the integration and application of generative artificial intelligence (AI) in various projects and applications.
 - This service stands out by providing access to a selection of top-tier foundation models (FMs) from renowned AI companies, including AI21 Labs, Anthropic, Cohere, Meta, Stability AI, and Amazon itself. All these models are accessible via Python using Amazon’s Boto3 API.
@@ -86,3 +95,4 @@ ref: https://docs.aws.amazon.com/bedrock/latest/userguide/batch-inference-suppor
 
 
 
+References <a href="https://www.udemy.com/course/amazon-bedrock-learn-ai-on-aws-with-python/">Amazon Bedrock - Learn AI on AWS with Python!</a>
