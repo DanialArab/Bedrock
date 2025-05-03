@@ -1,7 +1,7 @@
 # Bedrock
 
 1. [Introduction](#1)
-1. [Easy Questions](#2)  
+1. [Text Generation](#2)  
 2. [Medium Questions](#3)
 3. [Hard Questions](#4) 
 3. [Complete SQL Mastery](#5)  
@@ -28,6 +28,7 @@
 - Inside of the AWS Amazon Bedrock console you also get access to a **playground** for quick testing.
 - Keep in mind not all configurations are available for all models. They may be slightly different, and you have the playground accessibility to just play around with these models. And most importantly, you do need to request model access. Remember, you go to the Model Access page and then click on Manage Model Access. And then you're going to select which models you want access to.
 
+<a name="2"></a>
 ## Text Generation
 
 ### Parameters
