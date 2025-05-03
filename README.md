@@ -1,8 +1,8 @@
-# Bedrock
+![image](https://github.com/user-attachments/assets/68b562c3-2541-48d5-b28a-2a093da207a3)# Bedrock
 
 1. [Introduction](#1)
 1. [Text Generation](#2)  
-2. [Medium Questions](#3)
+ 1. [Text Generation Parameters](#3)
 3. [Hard Questions](#4) 
 3. [Complete SQL Mastery](#5)  
  
@@ -31,7 +31,8 @@
 <a name="2"></a>
 ## Text Generation
 
-### Parameters
+<a name="3"></a>
+### Text Generation Parameters
 
 Not all parameters are shared between models (not all models have a frequency penalty) and the JSON configuration and naming schema is different between models (e.g. topP vs top_p).
 
