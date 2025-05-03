@@ -1,7 +1,7 @@
 # Bedrock
 
 1. [Introduction](#1)
-1. [Text Generation](#2)
+2. [Text Generation](#2)
     1. [Text Generation Parameters](#3)
        1. [Max Token Generation Length](#4)
        2. [Temperature](#5)
@@ -9,8 +9,7 @@
        4. [Stop or Finish Sequence](#7)
     2. [Text models with Bedrock](#8)
        1. [How to use batch inference vs. On-demand](#9)
-
- 
+3. [Reference]((#10) 
 
 <a name="1"></a>
 ## Introduction 
@@ -126,4 +125,5 @@ Some key points batch inference job:
 - I can run this batch job either in Bedrock console or API
 - I need to use create_model_invocation_job and not invoke_model
 
+<a name="10"></a>
 References <a href="https://www.udemy.com/course/amazon-bedrock-learn-ai-on-aws-with-python/">Amazon Bedrock - Learn AI on AWS with Python!</a>
