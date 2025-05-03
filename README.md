@@ -3,7 +3,7 @@
 1. [Introduction](#1)
 1. [Text Generation](#2)
     1. [Text Generation Parameters](#3)
-           1. [Max Token Generation Length](#4) 
+       1. [Max Token Generation Length](#4) 
 3. [Hard Questions](#4) 
 3. [Complete SQL Mastery](#5)  
  
