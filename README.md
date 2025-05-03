@@ -117,15 +117,13 @@ here is inference parameters for Llama
 <a name="9"></a>
 ### How to use batch inference vs. On-demand
 
+Here is a link with more details on batch inference on Bedrock <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/batch-inference-supported.html">Amazon Bedrock - Batch Inrefence</a>
+
 Some key points batch inference job:
 
 - Data needs to be prepared in a **JSONL** file format 
 - I do need to upload the input data to S3 and also outputs need to be saved in S3
 - I can run this batch job either in Bedrock console or API
 - I need to use create_model_invocation_job and not invoke_model
-
-ref: https://docs.aws.amazon.com/bedrock/latest/userguide/batch-inference-supported.html
-
-
 
 References <a href="https://www.udemy.com/course/amazon-bedrock-learn-ai-on-aws-with-python/">Amazon Bedrock - Learn AI on AWS with Python!</a>
