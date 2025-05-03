@@ -9,7 +9,7 @@
        4. [Stop or Finish Sequence](#7)
     2. [Text models with Bedrock](#8)
        1. [How to use batch inference vs. On-demand](#9)
-3. [Reference]((#10) 
+3. [Reference](#10) 
 
 <a name="1"></a>
 ## Introduction 
