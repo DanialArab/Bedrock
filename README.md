@@ -1,8 +1,8 @@
-![image](https://github.com/user-attachments/assets/68b562c3-2541-48d5-b28a-2a093da207a3)# Bedrock
+# Bedrock
 
 1. [Introduction](#1)
-1. [Text Generation](#2)  
- 1. [Text Generation Parameters](#3)
+1. [Text Generation](#2)
+    1. [Text Generation Parameters](#3)
 3. [Hard Questions](#4) 
 3. [Complete SQL Mastery](#5)  
  
