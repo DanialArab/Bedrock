@@ -126,4 +126,4 @@ Some key points batch inference job:
 - I need to use create_model_invocation_job and not invoke_model
 
 <a name="10"></a>
-References <a href="https://www.udemy.com/course/amazon-bedrock-learn-ai-on-aws-with-python/">Amazon Bedrock - Learn AI on AWS with Python!</a>
+## References <a href="https://www.udemy.com/course/amazon-bedrock-learn-ai-on-aws-with-python/">Amazon Bedrock - Learn AI on AWS with Python!</a>
